@@ -90,7 +90,7 @@ uint8_t flag=0;
  /* FUNCION PRINCIPAL, PUNTO DE ENTRADA AL PROGRAMA LUEGO DE RESET. */
 
 void UART2_IRQHandler(void){
-	flag=uartReadByte( UART_USB )-49;
+	flag=uartReadByte( UART_USB )-48;
 
 }
 
